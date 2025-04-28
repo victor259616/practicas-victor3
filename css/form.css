@@ -1,0 +1,65 @@
+/*document*/
+*{margin: 0px;
+  padding: 0px;}
+
+
+  body{font-family: "mulish", sans-serif;}
+
+  h1{text-transform: uppercase;}
+
+  h2{font-size: 1.5em;
+     padding-bottom: 8px;}
+
+  .cabecera{min-height: 80px;
+            padding-top: 16px;
+            text-align: center;
+            border-bottom: 2px solid black;
+            margin-bottom: 32px;}
+
+  section.cuerpo{width: 100%; }
+
+div.container p{font-size: 16px;
+             line-height: 140%;}
+
+ div.container a{display: block;
+     margin-top: 16px;
+     width: 120%;
+     padding: 16px;
+     text-align: center;
+     text-decoration: none;
+     color: whitesmoke;
+     background-color: green;
+     border-radius: 8px;}
+
+.container input{width: 100%;
+                 padding: 8px;
+                 margin-bottom: 8px;
+                 border-radius: 8px;
+                 border: 1px solid black;}
+                 
+#btn{width: 120%;}
+
+.container textarea{width: 100%;
+                    padding: 8px;
+                    max-width: 100%;
+                    min-height: 100%;}
+
+.container ::before, .container ::after{content: "";
+                                        display: block;
+                                        width: 80px;
+                                        height: 80px;
+                                        background-image: url(../img/692-200x300.jpg);
+                                        background-size: 100% 100%;
+                                        position: relative;
+                                        top: 48px;
+                                        left: 16px;}
+
+.container ::after{top: 248px!important;
+                   left: 16px!important ;}
+                                        
+.container{ width: 80%;
+            margin: auto;
+            display: flex; }
+
+.item{width: 50%;
+      padding: 0px 16px 0px 16px;}

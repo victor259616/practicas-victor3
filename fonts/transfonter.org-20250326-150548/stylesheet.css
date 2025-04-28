@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Manga Temple';
+    src: url('MangaTempleBold.woff2') format('woff2'),
+        url('MangaTempleBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Manga Temple';
+    src: url('MangaTempleItalic.woff2') format('woff2'),
+        url('MangaTempleItalic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Manga Temple';
+    src: url('MangaTemple.woff2') format('woff2'),
+        url('MangaTemple.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

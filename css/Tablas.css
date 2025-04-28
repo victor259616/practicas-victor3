@@ -1,0 +1,24 @@
+/*DOCUMENTO CSS*/
+* {margin: 0px;
+   padding: 0px;}
+
+   body{font-family: "Roboto", sans-serif;
+        font-size: 32px;}
+
+        .cabecera{margin-bottom: 32px;}
+
+
+        .tablas{background-color: brown;
+                min-height: 1px;
+                 padding: 16px 0px;
+                 margin-bottom: 32px; }
+               
+                 
+                 div.tablas{background-color: blue;
+                            margin-bottom: 80px;}
+                
+                
+                 .tablas table{margin: auto;}
+
+
+        

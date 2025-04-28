@@ -1,0 +1,51 @@
+/*DOCUMENT*/
+
+.h3{padding-top: 80px;}
+
+.container{width: 80%;
+           min-height: 1px;
+           display: flex;
+           justify-content: space-between;
+           align-items: stretch;}
+
+
+.items{background-color: orange;
+       width: 100%;
+       height: 300px;
+    text-align: center;
+    background-image: url(../img/909-350x350.jpg);
+    background-size: 100% 100% ;}
+
+    .tres{align-self: flex-start;}
+
+    /*MEDIA QUIERES*/
+
+    /*BREACKPOINT 768*/
+
+    @MEDIA only screen and (min-width:768px){
+
+.container{flex-direction: row;
+           flex-wrap: wrap;}
+
+.items{width: 50%; 
+       margin: 0px 16px 16px 0px ;}
+
+    }
+
+    /*BREACKPOINT 768*/
+
+h3{padding: top 80px;
+   font-size: 1.3em;}
+
+    @MEDIA only screen and (min-width:768px){
+
+.container{width: 80%;
+           margin: auto;}
+
+.items{width: 20%; 
+       height: 140px;}
+
+
+    }
+
+

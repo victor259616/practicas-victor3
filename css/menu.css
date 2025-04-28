@@ -1,0 +1,62 @@
+/*document*/
+
+*{margin: 0;
+  padding: 0;}
+
+/*TIPOGRAFIA*/
+
+@font-face {
+    font-family: 'Manga Temple';
+    src: url('fonts/MangaTempleBold.woff2') format('woff2'),
+        url('fontys/MangaTempleBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+  .cabecera{font-family: 'Manga Temple';
+            background: purple;
+            padding-top: 8px;
+            min-height: 1px;}
+
+.bar{width: 1px;
+     height: 60px;}
+
+  .logo{color: aqua;
+        width: 40px;
+        font-size: 2em;
+        display: block;
+        margin: auto;
+        padding-bottom: auto ;}
+
+  .container{display: flex;
+             width: 100%;
+             flex-flow: row wrap;}
+
+
+  .items{width: 50%;
+         text-align: center;
+         color: black;
+         background-color: whitesmoke;
+         padding: 8px 0px;}
+
+
+  .container a:first-child{display: none;}
+
+  /*BREAKPOINT 600PX*/
+
+  @media only screen and(min-width:600px){
+
+  .items{width: 25%}
+
+.logo{font-size: 3em;}
+
+.container{width: 80%;
+           margin:auto;
+           position: relative;
+          top: 15px;}
+
+.container a:first-child{display: block;}
+
+}

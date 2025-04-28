@@ -1,0 +1,44 @@
+/*DOCUMENTO CSS*/
+
+*{margin: 0%;
+  padding: 0px;}
+
+
+  body{background-color: olivedrab;
+       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+
+
+  h1{text-align: center;
+     padding: 16px 0px;
+     font-size: 32px;
+    color: aliceblue;
+text-transform: uppercase;
+text-shadow: 0px 0px 3px black;}
+
+     h2{padding: 8px 0px;
+        font-size: 24px;}
+
+        .cabecera{min-height: 1px;
+                  background-color: yellowgreen;
+                   margin-bottom: 16px;}
+
+                   .musica{width: 80%;
+                           padding: 8px 0px;
+                           margin: auto;
+                        background-color: aquamarine;}
+
+        .musica audio{margin: auto;
+                      display: block;}
+
+
+        .video{margin: auto;
+                display: block;}
+
+        .video div{width: 50%;
+            min-height: 1px;       
+            display: flex;}
+
+            .videos video, .videos iframe {width: 100%;
+                                           height: 300%;}
+
+        
